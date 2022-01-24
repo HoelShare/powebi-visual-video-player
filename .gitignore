@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+.env.test
+.env.production
+
+### VisualStudioCode ###
+.vscode
+
+.tmp
+dist
+webpack.statistics.*.html

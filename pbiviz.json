@@ -1,0 +1,24 @@
+{
+    "visual": {
+        "name": "videoPlayer",
+        "displayName": "Video Player",
+        "guid": "videoPlayer69AB9E3134B04F119068B86650ED1138",
+        "visualClassName": "Visual",
+        "version": "1.0.0",
+        "description": "Embedding videos into PowerBI",
+        "supportUrl": "https://github.com/HoelShare/powebi-visual-video-player/issues",
+        "gitHubUrl": "https://github.com/HoelShare/powebi-visual-video-player"
+    },
+    "apiVersion": "3.8.0",
+    "author": {
+        "name": "Sebastian Hölscher",
+        "email": "visuals@hoelshare.de"
+    },
+    "assets": {
+        "icon": "assets/icon.svg"
+    },
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": []
+}

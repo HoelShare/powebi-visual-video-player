@@ -1,0 +1,27 @@
+{
+    "supportsLandingPage": true,
+    "supportsEmptyDataView": true,
+    "dataRoles": [
+        {
+            "displayName": "Video Url",
+            "name": "videoUrl",
+            "kind": "Measure"
+        }
+    ],
+    "objects": {},
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "videoUrl": {
+                        "max": 1
+                    }
+                }
+            ],
+            "single": {
+                "role": "videoUrl"
+            }
+        }
+    ],
+    "suppressDefaultTitle": true
+}
